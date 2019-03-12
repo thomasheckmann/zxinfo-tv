@@ -3,12 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71AB1AD4223847B1007A03F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71AB1AC7223847B1007A03F6 /* Localizable.strings */; };
+		71AB1AD5223847B1007A03F6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB1AC9223847B1007A03F6 /* AboutViewController.swift */; };
+		71AB1AD6223847B1007A03F6 /* ZXDBEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB1ACB223847B1007A03F6 /* ZXDBEntry.swift */; };
+		71AB1AD7223847B1007A03F6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB1ACC223847B1007A03F6 /* Result.swift */; };
+		71AB1AD8223847B1007A03F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB1ACD223847B1007A03F6 /* HomeViewController.swift */; };
+		71AB1AD9223847B1007A03F6 /* ZXDBRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB1ACE223847B1007A03F6 /* ZXDBRandom.swift */; };
+		71AB1ADA223847B1007A03F6 /* ZXDBSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB1ACF223847B1007A03F6 /* ZXDBSearchResults.swift */; };
+		71AB1ADB223847B1007A03F6 /* ZXDBEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB1AD0223847B1007A03F6 /* ZXDBEntryCell.swift */; };
+		71AB1ADC223847B1007A03F6 /* YTScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB1AD2223847B1007A03F6 /* YTScreenCell.swift */; };
+		71AB1ADD223847B1007A03F6 /* ZXDBEntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB1AD3223847B1007A03F6 /* ZXDBEntryDetailViewController.swift */; };
+		71AB1AE222384D9C007A03F6 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AB1AE022384D9C007A03F6 /* play.png */; };
+		71AB1AE322384D9C007A03F6 /* ZXDB_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AB1AE122384D9C007A03F6 /* ZXDB_8.png */; };
 		71BCB1042237F42900B3D618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCB1032237F42900B3D618 /* AppDelegate.swift */; };
-		71BCB1062237F42900B3D618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCB1052237F42900B3D618 /* ViewController.swift */; };
 		71BCB1092237F42900B3D618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BCB1072237F42900B3D618 /* Main.storyboard */; };
 		71BCB10B2237F42A00B3D618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BCB10A2237F42A00B3D618 /* Assets.xcassets */; };
 		BFC9C776635A6A0C5F36BAC7 /* Pods_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AB1972107E16D2FF6F88EE /* Pods_tvOS.framework */; };
@@ -17,9 +28,20 @@
 /* Begin PBXFileReference section */
 		377DBC706C7D6D210C0A25E9 /* Pods-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS.release.xcconfig"; path = "Target Support Files/Pods-tvOS/Pods-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		4C321F7EAFF4C93EBDF8113F /* Pods-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-tvOS/Pods-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		71AB1AC7223847B1007A03F6 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		71AB1AC9223847B1007A03F6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		71AB1ACB223847B1007A03F6 /* ZXDBEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXDBEntry.swift; sourceTree = "<group>"; };
+		71AB1ACC223847B1007A03F6 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		71AB1ACD223847B1007A03F6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		71AB1ACE223847B1007A03F6 /* ZXDBRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXDBRandom.swift; sourceTree = "<group>"; };
+		71AB1ACF223847B1007A03F6 /* ZXDBSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXDBSearchResults.swift; sourceTree = "<group>"; };
+		71AB1AD0223847B1007A03F6 /* ZXDBEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXDBEntryCell.swift; sourceTree = "<group>"; };
+		71AB1AD2223847B1007A03F6 /* YTScreenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTScreenCell.swift; sourceTree = "<group>"; };
+		71AB1AD3223847B1007A03F6 /* ZXDBEntryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXDBEntryDetailViewController.swift; sourceTree = "<group>"; };
+		71AB1AE022384D9C007A03F6 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		71AB1AE122384D9C007A03F6 /* ZXDB_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZXDB_8.png; sourceTree = "<group>"; };
 		71BCB1012237F42900B3D618 /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BCB1032237F42900B3D618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71BCB1052237F42900B3D618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71BCB1082237F42900B3D618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71BCB10A2237F42A00B3D618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71BCB10C2237F42A00B3D618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,11 +60,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71AB1AC8223847B1007A03F6 /* AboutView */ = {
+			isa = PBXGroup;
+			children = (
+				71AB1AC9223847B1007A03F6 /* AboutViewController.swift */,
+			);
+			path = AboutView;
+			sourceTree = "<group>";
+		};
+		71AB1ACA223847B1007A03F6 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				71AB1ACB223847B1007A03F6 /* ZXDBEntry.swift */,
+				71AB1ACC223847B1007A03F6 /* Result.swift */,
+				71AB1ACD223847B1007A03F6 /* HomeViewController.swift */,
+				71AB1ACE223847B1007A03F6 /* ZXDBRandom.swift */,
+				71AB1ACF223847B1007A03F6 /* ZXDBSearchResults.swift */,
+				71AB1AD0223847B1007A03F6 /* ZXDBEntryCell.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		71AB1AD1223847B1007A03F6 /* ZXDBEntryDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				71AB1AD2223847B1007A03F6 /* YTScreenCell.swift */,
+				71AB1AD3223847B1007A03F6 /* ZXDBEntryDetailViewController.swift */,
+			);
+			path = ZXDBEntryDetailView;
+			sourceTree = "<group>";
+		};
+		71AB1ADE22384D9C007A03F6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				71AB1ADF22384D9C007A03F6 /* images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		71AB1ADF22384D9C007A03F6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				71AB1AE022384D9C007A03F6 /* play.png */,
+				71AB1AE122384D9C007A03F6 /* ZXDB_8.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		71BCB1022237F42900B3D618 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				71AB1ADE22384D9C007A03F6 /* Assets */,
+				71AB1AC8223847B1007A03F6 /* AboutView */,
+				71AB1ACA223847B1007A03F6 /* HomeView */,
+				71AB1AC7223847B1007A03F6 /* Localizable.strings */,
+				71AB1AD1223847B1007A03F6 /* ZXDBEntryDetailView */,
 				71BCB1032237F42900B3D618 /* AppDelegate.swift */,
-				71BCB1052237F42900B3D618 /* ViewController.swift */,
 				71BCB1072237F42900B3D618 /* Main.storyboard */,
 				71BCB10A2237F42A00B3D618 /* Assets.xcassets */,
 				71BCB10C2237F42A00B3D618 /* Info.plist */,
@@ -82,7 +155,6 @@
 				4C321F7EAFF4C93EBDF8113F /* Pods-tvOS.debug.xcconfig */,
 				377DBC706C7D6D210C0A25E9 /* Pods-tvOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71BCB10B2237F42A00B3D618 /* Assets.xcassets in Resources */,
+				71AB1AE322384D9C007A03F6 /* ZXDB_8.png in Resources */,
+				71AB1AE222384D9C007A03F6 /* play.png in Resources */,
+				71AB1AD4223847B1007A03F6 /* Localizable.strings in Resources */,
 				71BCB1092237F42900B3D618 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,8 +274,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BCB1062237F42900B3D618 /* ViewController.swift in Sources */,
+				71AB1ADC223847B1007A03F6 /* YTScreenCell.swift in Sources */,
+				71AB1ADB223847B1007A03F6 /* ZXDBEntryCell.swift in Sources */,
+				71AB1AD8223847B1007A03F6 /* HomeViewController.swift in Sources */,
+				71AB1AD5223847B1007A03F6 /* AboutViewController.swift in Sources */,
+				71AB1ADD223847B1007A03F6 /* ZXDBEntryDetailViewController.swift in Sources */,
+				71AB1AD9223847B1007A03F6 /* ZXDBRandom.swift in Sources */,
+				71AB1ADA223847B1007A03F6 /* ZXDBSearchResults.swift in Sources */,
 				71BCB1042237F42900B3D618 /* AppDelegate.swift in Sources */,
+				71AB1AD7223847B1007A03F6 /* Result.swift in Sources */,
+				71AB1AD6223847B1007A03F6 /* ZXDBEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

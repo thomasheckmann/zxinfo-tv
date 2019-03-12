@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  tvOS
+
+  Created by Thomas Ahn Kolbeck Kjær Heckmann on 3/8/19.
+  Copyright © 2019 -. All rights reserved.
+*/
+
+// Navigation
+"home" = "HOME";
+"about" = "ABOUT";
+
+// About text
+"about_zxdb" = "ZXInfoTV uses the open ZXDB Database as a source for historical information of software, hardware, magazines and books about ZX-Spectrum and related machines. This includes images, title, year, description and others.\n\nFind more information about ZXDB at https://github.com/zxdb/ZXDB";
