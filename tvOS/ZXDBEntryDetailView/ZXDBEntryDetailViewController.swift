@@ -123,6 +123,15 @@ class ZXDBEntryDetailViewController: UIViewController, UICollectionViewDataSourc
         ytCollectionview.showsVerticalScrollIndicator = false
         ytCollectionview.backgroundColor = .clear
         
+        // logo image
+        if let logoImage = UIImage(named: "stribes") {
+            let logoImageView = UIImageView(frame: CGRect(x:self.view.frame.width - logoImage.size.width, y:self.view.frame.height - logoImage.size.height, width: logoImage.size.width, height: logoImage.size.height))
+            logoImageView.image = logoImage
+            
+            self.view.addSubview(logoImageView)
+        }
+
+        
         self.view.addSubview(ytCollectionview)
     }
     

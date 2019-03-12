@@ -20,12 +20,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Setup viewControllers
         let homeVC:UIViewController = HomeViewController()
         homeVC.tabBarItem = UITabBarItem(title: NSLocalizedString("home", comment: ""), image: UIImage(named: "TabHome"), tag: 0)
-
+        
         let aboutVC = AboutViewController()
         aboutVC.tabBarItem = UITabBarItem(title: NSLocalizedString("about", comment: ""), image: UIImage(named: "TabHome"), tag: 1)
 
         // Setup TabBar Navigation
         let tabBarController = UITabBarController()
+        tabBarController.view.backgroundColor = .clear
+        tabBarController.tabBar.tintColor = .white
+        
+        tabBarController.tabBar.backgroundImage = UIImage(named: "menu-background")
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.darkGray], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .selected)
+
         let controllers = [homeVC, aboutVC]
         tabBarController.viewControllers = controllers.map { UINavigationController(rootViewController: $0)}
         
