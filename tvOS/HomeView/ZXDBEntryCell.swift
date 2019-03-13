@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AutoScrollLabel
 
 class ZXDBEntryCell: UICollectionViewCell {
     static let imageWidth = 480
@@ -28,17 +29,29 @@ class ZXDBEntryCell: UICollectionViewCell {
         return imageView
     }()
     
-    let labelTitle: UILabel = {
+//    let labelTitle: UILabel = {
+//        let labelFrame:CGRect = CGRect(x: -40, y:Int(imageHeight + 15), width:imageWidth + 80, height: 40)
+//        let labelTitle = UILabel(frame: labelFrame)
+//        labelTitle.text = "..."
+//        labelTitle.textAlignment = .center
+//        labelTitle.font = UIFont.boldSystemFont(ofSize: 32.0)
+//        labelTitle.textColor = UIColor.black
+//
+//        return labelTitle
+//    }()
+
+    let labelTitle: CBAutoScrollLabel = {
         let labelFrame:CGRect = CGRect(x: -40, y:Int(imageHeight + 15), width:imageWidth + 80, height: 40)
-        let labelTitle = UILabel(frame: labelFrame)
+        let labelTitle = CBAutoScrollLabel(frame: labelFrame)
         labelTitle.text = "..."
         labelTitle.textAlignment = .center
+        labelTitle.fadeLength = 20.0
         labelTitle.font = UIFont.boldSystemFont(ofSize: 32.0)
         labelTitle.textColor = UIColor.black
         
         return labelTitle
     }()
-    
+
     let activityView: UIActivityIndicatorView = {
         let acView = UIActivityIndicatorView(style: .white)
         acView.frame = CGRect(x: 0, y: 0, width: cellWidth, height: cellHeight)

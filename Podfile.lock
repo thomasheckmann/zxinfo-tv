@@ -1,16 +1,20 @@
 PODS:
+  - AutoScrollLabel (0.4.3)
   - XCDYouTubeKit (2.7.3)
 
 DEPENDENCIES:
+  - AutoScrollLabel (~> 0.4)
   - XCDYouTubeKit (~> 2.7)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AutoScrollLabel
     - XCDYouTubeKit
 
 SPEC CHECKSUMS:
+  AutoScrollLabel: bee53a1d4532569b49cbecaf9b80ca003bed3767
   XCDYouTubeKit: 3f4fd3eb3ed494a46a8f007b91315eed6dd6df1f
 
-PODFILE CHECKSUM: 298829947eb7f26a80ce302021074c01da0e18ff
+PODFILE CHECKSUM: b6102d7d8ce685550a8578265b9921f0f8bfb1ea
 
 COCOAPODS: 1.7.0.beta.1
