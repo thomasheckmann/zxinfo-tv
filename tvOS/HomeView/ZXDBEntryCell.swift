@@ -28,17 +28,6 @@ class ZXDBEntryCell: UICollectionViewCell {
         
         return imageView
     }()
-    
-//    let labelTitle: UILabel = {
-//        let labelFrame:CGRect = CGRect(x: -40, y:Int(imageHeight + 15), width:imageWidth + 80, height: 40)
-//        let labelTitle = UILabel(frame: labelFrame)
-//        labelTitle.text = "..."
-//        labelTitle.textAlignment = .center
-//        labelTitle.font = UIFont.boldSystemFont(ofSize: 32.0)
-//        labelTitle.textColor = UIColor.black
-//
-//        return labelTitle
-//    }()
 
     let labelTitle: CBAutoScrollLabel = {
         let labelFrame:CGRect = CGRect(x: -40, y:Int(imageHeight + 15), width:imageWidth + 80, height: 40)
