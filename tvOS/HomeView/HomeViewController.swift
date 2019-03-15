@@ -15,6 +15,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     private let zxdbService = ZXDBRandom()
     
     var collectionView: UICollectionView!
+    var lastFocused: UICollectionViewCell!
+    
     
     var spinner = UIActivityIndicatorView(style: .whiteLarge)
     
@@ -43,6 +45,15 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     }
     
     @objc func refreshColletion() {
+        if let lastFocused = lastFocused {
+            lastFocused.transform = CGAffineTransform(scaleX: 1, y: 1)
+            lastFocused.layer.shadowOffset = CGSize(width: 0, height: 0)
+            lastFocused.contentView.layer.shadowOpacity = 0
+            lastFocused.contentView.layer.shadowRadius = 0.0
+            
+            lastFocused.removeMotionEffect(horizontalMotionEffect)
+            lastFocused.removeMotionEffect(verticalMotionEffect)
+        }
         getRandomFromZXDB()
     }
     
@@ -162,6 +173,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
             
             cell.addMotionEffect(horizontalMotionEffect)
             cell.addMotionEffect(verticalMotionEffect)
+            lastFocused = cell
         }
     }
     
