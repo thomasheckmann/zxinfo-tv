@@ -8,9 +8,10 @@ The main view shows a random selection of software entries from the ZXDB databas
 
 Use the Apple TV remote to navigate, tap to watch details - including videos. Press Play/Pause on overview page to refreash content. On details view, select video and press Play/Pause to play.
 
-Home screen | Details screen | Video
------------- | ------------- | -------------
-<img width="320" alt="ZXInfoTV-home" src="doc/assets/ZXInfoTV-home.png">|<img width="320" alt="ZXInfoTV-details" src="doc/assets/ZXInfoTV-details.png">|<img width="320" alt="ZXInfoTV-details" src="doc/assets/ZXInfo.gif">
+Home screen | Details screen | Video
+------------ | ------------- | -------------
+<img width="320" alt="ZXInfoTV-home" src="doc/assets/ZXInfoTV-home.png"> | <img width="320" alt="ZXInfoTV-details" src="doc/assets/ZXInfoTV-details.png"> | <img width="320" alt="ZXInfoTV-details" src="doc/assets/ZXInfo.gif">
+
 
 ## Installing ZXInfoTV
 As for now there's no official approved way to embed and play YouTube videos on AppleTV. This app uses [XCDYouTubeKit](https://github.com/0xced/XCDYouTubeKit) as the YouTube player, and as it is known to violate the YouTube TOS - use at your own risk! Because of the use of XCDYouTubeKit, this app will not be available in the AppStore - until an official solution has been provided (by Google I assume).
