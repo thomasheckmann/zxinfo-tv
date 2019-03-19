@@ -12,6 +12,12 @@ Home screen | Details screen
 ------------ | -------------
 <img width="320" alt="ZXInfoTV-home" src="doc/assets/ZXInfoTV-home.png">|<img width="320" alt="ZXInfoTV-details" src="doc/assets/ZXInfoTV-details.png">
 
+### Video of action in play
+<video width="320"> 
+    <source src="doc/assets/ZXInfo.mov" type="video/mp4">
+    <source src="doc/assets/ZXInfo.webm"></source> 
+</video>
+
 ## Installing ZXInfoTV
 As for now there's no official approved way to embed and play YouTube videos on AppleTV. This app uses [XCDYouTubeKit](https://github.com/0xced/XCDYouTubeKit) as the YouTube player, and as it is known to violate the YouTube TOS - use at your own risk! Because of the use of XCDYouTubeKit, this app will not be available in the AppStore - until an official solution has been provided (by Google I assume).
 
