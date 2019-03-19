@@ -133,7 +133,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         cell.labelTitle.text = item.fulltitle
         
         cell.imageView.image = thumbnail
-        
+
         return cell
     }
     
@@ -170,7 +170,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
             cell.layer.shadowOffset = CGSize(width: 10, height: 10)
             cell.layer.shadowOpacity = 0.5
             cell.layer.shadowRadius = 8
-            
+
             cell.addMotionEffect(horizontalMotionEffect)
             cell.addMotionEffect(verticalMotionEffect)
             lastFocused = cell

@@ -40,7 +40,7 @@ class ZXDBEntryCell: UICollectionViewCell {
         
         return labelTitle
     }()
-
+    
     let activityView: UIActivityIndicatorView = {
         let acView = UIActivityIndicatorView(style: .white)
         acView.frame = CGRect(x: 0, y: 0, width: cellWidth, height: cellHeight)
