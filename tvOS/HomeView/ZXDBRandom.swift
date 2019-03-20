@@ -76,16 +76,32 @@ class ZXDBRandom {
                         let source = zxdbObject["_source"],
                         let entryID = zxdbObject["_id"] as? String,
                         let fulltitle = source["fulltitle"] as? String,
-                        let machinetype = source["machinetype"] as? String,
-                        let genre = source["type"] as? String,
-                        let subgenre = source["subtype"] as? String,
-                        let screens = source["screens"] as? [[String: Any]],
-                        let publisher = source["publisher"] as? [[String: Any]]
+                        let screens = source["screens"] as? [[String: Any]]
                         else {
                             print("ZXDBEntry - something is missng: \(String(describing: zxdbObject))")
                             return nil
                     }
                     
+                    var machinetype = "N/A"
+                    if let m = source["machinetype"] as? String {
+                        machinetype = m
+                    }
+                    
+                    var genre = "N/A"
+                    if let g = source["type"] as? String {
+                        genre = g
+                    }
+
+                    var subgenre = "N/A"
+                    if let sg = source["subtype"] as? String {
+                        subgenre = sg
+                    }
+
+                    var publisher = [[String:Any]]()
+                    if let p = source["publisher"] as? [[String: Any]] {
+                        publisher = p
+                    }
+
                     var yofl: Int
                     if let yearofrelease = source["yearofrelease"] as? Int {
                         yofl = yearofrelease
